@@ -7,6 +7,7 @@ from itertools import combinations
 
 # Initialize the app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.BOOTSTRAP])
+server = app.server
 
 # Initialize in-memory storage for tasks and scores
 tasks = []
