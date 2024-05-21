@@ -8,4 +8,3 @@ Werkzeug==2.2.2
 datetime
 dash
 dash-bootstrap-components
-itertools
