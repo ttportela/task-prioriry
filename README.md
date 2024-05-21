@@ -2,6 +2,8 @@
 
 This is a test project made with ChatGPT with simple prompts (and some adaptations). This application creates a rank os priority of tasks, first input a list of tasks (step 1), then, choose the most important task of each two pairs (step 2).
 
+Demo: [https://task-priority.onrender.com/](https://task-priority.onrender.com/)
+
 ----
 
 The used prompts are:
