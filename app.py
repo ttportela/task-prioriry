@@ -184,4 +184,4 @@ def display_results(n_clicks):
 
 # Run the app on a different port
 if __name__ == '__main__':
-    app.run_server(debug=True, port=5001)  # Change port here
+    app.run_server(debug=True, port=8080)  # Change port here
