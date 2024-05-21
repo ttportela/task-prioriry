@@ -178,7 +178,7 @@ def display_results(n_clicks):
     result_list = dbc.ListGroup(
         [dbc.ListGroupItem([
                 f"{task}", 
-                dbc.Badge(f"Prioriry Score: {score}", color="info", className="me-1", style={'float': 'right'}),
+                dbc.Badge(f"Priority Score: {score}", color="info", className="me-1", style={'float': 'right'}),
             ]) for task, score in ranked_tasks],
         flush=True,
     )
