@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Tasks</title>
+</head>
+<body>
+    <h1>Which task is more important?</h1>
+    <form action="/compare" method="POST">
+        <button name="choice" value="{{ pair[0] }}">{{ task1 }}</button>
+        <button name="choice" value="{{ pair[1] }}">{{ task2 }}</button>
+    </form>
+</body>
+</html>
