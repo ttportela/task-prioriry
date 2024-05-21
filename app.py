@@ -52,7 +52,7 @@ app.layout = dbc.Container([
                 dbc.Row([
                     dbc.Col([
                         html.H1("Task Priority"),
-                        dbc.Textarea(id="task-input", placeholder="Enter each task on a new line", rows=10, style={'minWidth': '100%'}),
+                        dbc.Textarea(id="task-input", placeholder="Enter each task on a new line (may need Shift+Enter)", rows=10, style={'minWidth': '100%'}),
                         dbc.Button("Submit", id="submit-tasks", color="primary", className="mt-2"),
                     ], width=12),
                 ]),
@@ -69,6 +69,7 @@ app.layout = dbc.Container([
                 ]),
             ],
             title='Step 2 - Priority Rank',
+            id='acc-item-2'
         ),
     ]),
     
